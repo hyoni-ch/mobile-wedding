@@ -131,7 +131,7 @@ const BankBox = styled.div`
 
   @media screen and (max-width: 440px) {
     .modal-box {
-      width: 80%;
+      width: 90% !important;
     }
   }
 
