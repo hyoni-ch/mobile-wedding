@@ -7,7 +7,7 @@ import { grayTop } from "../../assets/images";
 const { Kakao } = window;
 export default function Share() {
   // 배포한 자신의 사이트
-  const realUrl = "https://mobile-wedding-chh.netlify.app";
+  const realUrl = "https://mobile-wedding-hyoni-ch.koyeb.app";
   // 로컬 주소 (localhost 3000 같은거)
   const resultUrl = window.location.href;
 
@@ -54,7 +54,7 @@ export default function Share() {
       <section className="flex">
         <div>
           <CopyToClipboard
-            text="https://mobile-wedidng-chh.netlify.app"
+            text="https://mobile-wedding-hyoni-ch.koyeb.app"
             onCopy={() => alert("클립보드에 복사되었습니다.")}
           >
             <button className="btn btn-share" style={{ marginRight: "0.5rem" }}>
