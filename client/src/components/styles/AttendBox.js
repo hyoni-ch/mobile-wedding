@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const AttendBox = styled.div`
   .bg-img-white {
-    top: 0;
+    top: -10px;
   }
 
   .btn-rsvp {
