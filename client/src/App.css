@@ -1,0 +1,94 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo&family=Noto+Serif+KR&display=swap');
+
+@font-face {
+  font-family: "iceJaram-Rg";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'sygmaFont';
+  src: url('../src/assets/fonrts/Sygma.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OG_Renaissance_Secret-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/OG_Renaissance_Secret-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #222;
+}
+
+p {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+input::placeholder {
+  font-size: 0.8rem;
+}
+
+.App {
+  font-family: "Noto Serif KR",serif;
+  background-color: rgb(59, 59, 59);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
