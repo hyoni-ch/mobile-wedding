@@ -80,7 +80,8 @@ export default function Upload({ visible, setVisible }) {
               <hr></hr>
               <input
                 id="pw"
-                type={showPswd ? "text" : "password"}
+                // type={showPswd ? "text" : "password"}
+                type="text"
                 value={password}
                 placeholder="글 수정, 삭제 시 사용되는 비밀번호"
                 autocomplete="off"
@@ -89,13 +90,13 @@ export default function Upload({ visible, setVisible }) {
                   setPassword(e.currentTarget.value);
                 }}
               />
-              <div className="showPswd">
+              {/* <div className="showPswd">
                 {showPswd ? (
                   <BiShow onClick={toggleShowPswd} />
                 ) : (
                   <BiHide onClick={toggleShowPswd} />
                 )}
-              </div>
+              </div> */}
             </div>
 
             <div

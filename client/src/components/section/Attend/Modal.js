@@ -9,8 +9,6 @@ export default function Modal({ modalIsOpen, closeModal }) {
   const [sNum, setSNum] = useState(0);
   const [food, setFood] = useState("O");
 
-  console.log(sNum);
-
   const onSubmit = e => {
     e.preventDefault();
 
@@ -175,14 +173,14 @@ export default function Modal({ modalIsOpen, closeModal }) {
                 <input
                   type="radio"
                   value="X"
-                  id="radio5"
+                  id="radio6"
                   name="food"
                   checked={food === "X"}
                   onChange={e => {
                     setFood(e.currentTarget.value);
                   }}
                 />
-                <label for="radio5">X</label>
+                <label for="radio6">X</label>
               </div>
               <div>
                 <input
