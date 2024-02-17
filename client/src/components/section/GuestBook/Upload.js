@@ -42,7 +42,7 @@ export default function Upload({ visible, setVisible }) {
 
   return (
     <div className="upload-box w-90">
-      <form className="upload-form" onSubmit={onSubmit}>
+      <form className="upload-form">
         <div className="upload-container">
           <div className="upload upload-name">
             <div className="flex-start margin-b03">

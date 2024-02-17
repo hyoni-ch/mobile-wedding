@@ -36,6 +36,12 @@ const GuestBookBox = styled.div`
         background: inherit;
       }
 
+      input[type="password"] {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+          "Helvetica Neue", sans-serif;
+      }
+
       input#name {
         width: 80%;
       }
