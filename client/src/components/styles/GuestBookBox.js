@@ -31,15 +31,20 @@ const GuestBookBox = styled.div`
         height: 1rem;
         padding: 0.5rem;
         border: none;
-        font-family: inherit;
         font-size: 1rem;
         background: inherit;
       }
 
+      input[type="text"] {
+        font-family: inherit;
+      }
+
       input[type="password"] {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
+        font-family: "맑은 고딕", "malgun gothic", "돋움", Dotum, sans-serif;
+      }
+
+      input[type="password"]::placeholder {
+        font-family: "SUIT-Regular";
       }
 
       input#name {
