@@ -13,10 +13,10 @@ export default function Modal({ modalIsOpen, closeModal }) {
             <div className="w-33 about-g">신랑</div>
             <div className="w-33">손창경</div>
             <div className="flex-evenly w-33 ">
-              <a href="tel:01057689284">
+              <a href="tel:01087337465">
                 <IoCall size="20" color="#668eaa" />
               </a>
-              <a href="sms:01057689284">
+              <a href="sms:01087337465">
                 <IoIosMail size="22" color="#668eaa" />
               </a>
             </div>
@@ -25,10 +25,10 @@ export default function Modal({ modalIsOpen, closeModal }) {
             <div className="w-33 about-g">신랑 아버지</div>
             <div className="w-33">손용래</div>
             <div className="flex-evenly w-33 ">
-              <a href="tel:01057689284">
+              <a href="tel:01033413970">
                 <IoCall size="20" color="#668eaa" />
               </a>
-              <a href="sms:01057689284">
+              <a href="sms:01033413970">
                 <IoIosMail size="22" color="#668eaa" />
               </a>
             </div>
@@ -37,10 +37,10 @@ export default function Modal({ modalIsOpen, closeModal }) {
             <div className="w-33 about-g">신랑 어머니</div>
             <div className="w-33">김은희</div>
             <div className="flex-evenly w-33 ">
-              <a href="tel:01057689284">
+              <a href="tel:01036519349">
                 <IoCall size="20" color="#668eaa" />
               </a>
-              <a href="sms:01057689284">
+              <a href="sms:01036519349">
                 <IoIosMail size="22" color="#668eaa" />
               </a>
             </div>
