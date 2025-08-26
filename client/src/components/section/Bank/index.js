@@ -81,7 +81,7 @@ export default function Bank() {
           <div className="margin10 ">
             <div className="flex " style={{ marginBottom: "5px" }}>
               <div className="text-left w-90 ">
-                신랑 <strong>손창경</strong>
+                신랑 <strong>손철수</strong>
               </div>
               <a
                 href="https://qr.kakaopay.com/"
@@ -136,7 +136,7 @@ export default function Bank() {
           <div className="margin10">
             <div className="flex" style={{ marginBottom: "5px" }}>
               <div className="w-90 text-left">
-                신부 <strong>조하나</strong>
+                신부 <strong>조영희</strong>
               </div>
               <a
                 href="https://qr.kakaopay.com/"
@@ -172,7 +172,7 @@ export default function Bank() {
           <div className="margin10 ">
             <div className="flex" style={{ marginBottom: "5px" }}>
               <div className="w-full text-left">
-                아버지 <strong>조규정</strong> · 어머니 <strong>조수정</strong>
+                아버지 <strong>조마바</strong> · 어머니 <strong>조사아</strong>
               </div>
             </div>
 

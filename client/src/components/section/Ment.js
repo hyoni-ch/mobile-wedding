@@ -58,7 +58,7 @@ export default function Ment() {
               <strong>철수</strong>
             </li>
             <li>
-              <strong>조마바</strong> · <strong>조시이</strong>의 장녀{" "}
+              <strong>조마바</strong> · <strong>조사아</strong>의 장녀{" "}
               <strong>영희</strong>
             </li>
           </ul>
