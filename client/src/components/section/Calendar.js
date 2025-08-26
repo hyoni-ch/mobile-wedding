@@ -12,7 +12,7 @@ class Calendar extends React.Component {
   render() {
     const weddingDay = new Date("2024-03-24");
     const today = new Date();
-    const dDay = Math.floor((weddingDay - today) / (1000 * 60 * 60 * 24));
+    let dDay = Math.floor((weddingDay - today) / (1000 * 60 * 60 * 24));
     const { year, month } = this.state;
     const cal = this.generateCalendar(year, month);
     const weeks = ["일", "월", "화", "수", "목", "금", "토"];
