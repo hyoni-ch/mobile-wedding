@@ -84,7 +84,7 @@ export default function Bank() {
                 신랑 <strong>손창경</strong>
               </div>
               <a
-                href="https://qr.kakaopay.com/Ej8YEOJNL"
+                href="https://qr.kakaopay.com/"
                 draggable="flase"
                 target="_blank"
                 rel="noopener"
@@ -96,9 +96,9 @@ export default function Bank() {
               </a>
             </div>
             <div className="flex">
-              <div className="text-left w-90">국민 657802-01-301076</div>
+              <div className="text-left w-90">국민 000000-00-000000</div>
               <CopyToClipboard
-                text="국민 657802-01-301076"
+                text="00000000000000"
                 onCopy={() => alert("클립보드에 복사되었습니다.")}
               >
                 <div className="btn-account flex ">
@@ -139,7 +139,7 @@ export default function Bank() {
                 신부 <strong>조하나</strong>
               </div>
               <a
-                href="https://qr.kakaopay.com/FdigSBGyb"
+                href="https://qr.kakaopay.com/"
                 draggable="flase"
                 target="_blank"
                 rel="noopener"
@@ -151,9 +151,9 @@ export default function Bank() {
               </a>
             </div>
             <div className="flex">
-              <div className="w-90 text-left">카카오뱅크 3333-19-4893081</div>
+              <div className="w-90 text-left">카카오뱅크 0000-00-0000000</div>
               <CopyToClipboard
-                text="카카오뱅크 3333-19-4893081"
+                text="0000000000000"
                 onCopy={() => alert("클립보드에 복사되었습니다.")}
               >
                 <div className="btn-account flex">
@@ -177,9 +177,9 @@ export default function Bank() {
             </div>
 
             <div className="flex">
-              <div className="w-90 text-left">신한 110-541-508666</div>
+              <div className="w-90 text-left">신한 000-000-000000</div>
               <CopyToClipboard
-                text="신한 110-541-508666"
+                text="000000000000"
                 onCopy={() => alert("클립보드에 복사되었습니다.")}
               >
                 <div className="btn-account flex">
