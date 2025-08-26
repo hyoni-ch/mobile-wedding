@@ -6,14 +6,14 @@ export default function Intro() {
   return (
     <IntroBox className="textAlignCenter bg-gray">
       <section className="introTop">
-        <div className="wedding-name">손창경</div>
+        <div className="wedding-name">손철수</div>
         <div className="wedding-date flex flex-col">
           {/* <img src={date_image} alt="날짜 이미지" width="65px" /> */}
           <div className="wedding-date-num wedding-date-num-1">03</div>
           <div className="wedding-date-line"></div>
           <div className="wedding-date-num wedding-date-num-2">24</div>
         </div>
-        <div className="wedding-name">조하나</div>
+        <div className="wedding-name">조영희</div>
       </section>
 
       <section>

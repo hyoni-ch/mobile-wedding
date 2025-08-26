@@ -54,12 +54,12 @@ export default function Ment() {
         <Fade bottom cascade delay={300}>
           <ul className="myName">
             <li>
-              <strong>손용래</strong> · <strong>김은희</strong>의 장남{" "}
-              <strong>창경</strong>
+              <strong>손가나</strong> · <strong>김다라</strong>의 장남{" "}
+              <strong>철수</strong>
             </li>
             <li>
-              <strong>조규정</strong> · <strong>조수정</strong>의 장녀{" "}
-              <strong>하나</strong>
+              <strong>조마바</strong> · <strong>조시이</strong>의 장녀{" "}
+              <strong>영희</strong>
             </li>
           </ul>
         </Fade>

@@ -17,6 +17,10 @@ class Calendar extends React.Component {
     const cal = this.generateCalendar(year, month);
     const weeks = ["일", "월", "화", "수", "목", "금", "토"];
 
+    if (dDay < 0) {
+      dDay = 0;
+    }
+
     return (
       <CalendarBox className="textAlignCenter relative ">
         <Fade bottom cascade delay={500}>
@@ -96,7 +100,7 @@ class Calendar extends React.Component {
             <div>
               <p>
                 {" "}
-                창경 <span className="pointColor">♥</span> 하나의 결혼식이{" "}
+                철수 <span className="pointColor">♥</span> 영희의 결혼식이{" "}
                 <strong>
                   <span className="pointColor">{dDay}</span>
                 </strong>
